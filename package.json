@@ -1,0 +1,14 @@
+{
+  "name": "api-nodejs-express",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">API NodeJs</h1>",
+  "main": "index.js",
+  "scripts": {
+    "prod":"node ./src/server.js",
+    "dev":"nodemon -L ./src/server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Fernando Neuberger",
+  "license": "ISC"
+}
